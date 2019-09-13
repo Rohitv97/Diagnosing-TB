@@ -40,7 +40,7 @@ X-ray images in this data set have been acquired from the tuberculosis control p
 #### Resnet34
 * The Resnet34 model trained over 20 epochs decreased the error rate from 0.518 to 0.081
 * Learning Rate curve
-![alt text](https://drive.google.com/open?id=1xnNs-zbU1fNIIt8zZyb9C1hIeNkTD85D)
+![alt text](resnet34-LR.png)
 * Confusion Matrix
 * Accuracy measured = 91.87%
 
