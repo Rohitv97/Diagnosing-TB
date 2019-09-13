@@ -42,6 +42,7 @@ X-ray images in this data set have been acquired from the tuberculosis control p
 * Learning Rate curve
 ![alt text](https://raw.githubusercontent.com/Rohitv97/Diagnosing-TB/master/resnet34-LR.PNG)
 * Confusion Matrix
+![alt text](https://raw.githubusercontent.com/Rohitv97/Diagnosing-TB/master/resnet34-confusion-matrix.PNG)
 * Accuracy measured = 91.87%
 
 #### Resnet50
@@ -49,5 +50,6 @@ X-ray images in this data set have been acquired from the tuberculosis control p
 * Learning Rate curve
 ![picture alt](https://raw.githubusercontent.com/Rohitv97/Diagnosing-TB/master/resnet50-LR.PNG)
 * Confusion Matrix
+![alt text](https://raw.githubusercontent.com/Rohitv97/Diagnosing-TB/master/resnet50-confusion-matrix.PNG)
 * Accuracy Measured = 90.0%
 
