@@ -3,7 +3,17 @@ Using Neural Networks on Chest Xrays to find abnormal and normal xrays to diagno
 
 
 ## Dataset
-The data was taken from Kaggle.
+The [Dataset](https://www.kaggle.com/kmader/pulmonary-chest-xray-abnormalities) was taken from Kaggle.
+
+In case you want to access the dataset through Kaggle API, use the following command to download the dataset:
+
+```
+kaggle datasets download -d kmader/pulmonary-chest-xray-abnormalities
+```
+
+## Running
+
+The IPython notebooks were trained on Google Colab with GPU(Tesla K80) enabled.
 
 The CNN was applied to a combination of 2 datasets.
 
