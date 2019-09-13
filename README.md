@@ -11,10 +11,6 @@ In case you want to access the dataset through Kaggle API, use the following com
 kaggle datasets download -d kmader/pulmonary-chest-xray-abnormalities
 ```
 
-## Running
-
-The IPython notebooks were trained on Google Colab with GPU(Tesla K80) enabled.
-
 The CNN was applied to a combination of 2 datasets.
 
 ###  China Set
@@ -32,3 +28,24 @@ It is requested that publications resulting from the use of this data attribute 
 ### Montogomery County Set
 
 X-ray images in this data set have been acquired from the tuberculosis control program of the Department of Health and Human Services of Montgomery County, MD, USA. This set contains 138 posterior-anterior x-rays, of which 80 x-rays are normal and 58 x-rays are abnormal with manifestations of tuberculosis. All images are de-identified and available in DICOM format. The set covers a wide range of abnormalities, including effusions and miliary patterns. The data set includes radiology readings available as a text file.
+
+
+## Running
+
+* The IPython notebooks were trained on Google Colab with GPU(Tesla K80) enabled. The trained models have not been uploaded on to Github.
+* 640 images were used to train, and 160 to validate the results
+
+## Results
+
+#### Resnet34
+* The Resnet34 model trained over 20 epochs decreased the error rate from 0.518 to 0.081
+* Learning Rate curve
+* Confusion Matrix
+* Accuracy measured = 91.87%
+
+#### Resnet50
+* The Resnet50 model trained over 20 epochs decreased the error rate from 0.500 to 0.100
+* Learning Rate curve
+* Confusion Matrix
+* Accuracy Measured = 90.0%
+
